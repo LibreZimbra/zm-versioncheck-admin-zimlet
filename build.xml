@@ -1,7 +1,7 @@
 <project name="zm-versioncheck-admin-zimlet" default="deploy">
 
-    <import file="../zm-zcs/ant-global.xml" />	
-	
+	<import file="ant-global.xml" />
+
 	<property name="zimlet.file" value="com_zimbra_adminversioncheck.zip" />	
 
 	<!-- Creating build directory -->
